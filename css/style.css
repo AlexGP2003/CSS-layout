@@ -44,4 +44,12 @@ body {
 
 @media only screen and (max-width: 600px) {
     /*reglas*/
+    /*column3 de 33.3 a 100*/
+    .column-3 {
+        /*contenido*/
+        width: 100%;
+    }
+    .column-4 {
+        width: 50%;
+    }
 }
