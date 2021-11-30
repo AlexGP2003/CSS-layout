@@ -52,4 +52,7 @@ body {
     .column-4 {
         width: 50%;
     }
+    #diez {
+        width: 100%;
+    }
 }
