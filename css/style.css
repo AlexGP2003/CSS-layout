@@ -42,17 +42,26 @@ body {
     float: left;
 }
 
+.column-5 {
+    /*contenido*/
+    width: 20%;
+    float: left;
+}
+
 @media only screen and (max-width: 600px) {
     /*reglas*/
     /*column3 de 33.3 a 100*/
+    .column-2 {
+        width: 100%;
+    }
     .column-3 {
         /*contenido*/
-        width: 100%;
+        width: 50%;
     }
     .column-4 {
         width: 50%;
     }
-    #diez {
-        width: 100%;
+    .column-5 {
+        width: 10%;
     }
 }
